@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link rel="stylesheet" href="homepageStyle.css">
+    <style>
+        body {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .product {
+            width: 250px;
+            margin: 10px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class ="top_bar">
+        <div id="logo">
+            <img src="EngravedForU.webp" alt="EngravedForU" width="300" height="173">
+        </div>
+        
+        <div class="icons">
+            <div class="searchContainer">
+                <input id ="searchBox" type="text" placeholder="Awesome Gifts?">
+                <div id="searchIcon">
+                <img src="search_icon.png" alt="Search Icon" width="38">
+                </div>
+            </div>
+            <div id="saveIcon">
+                <img src="heart1.png" alt="Saved Icon" width="41">
+                <span>0</span>
+            </div>        
+            <div id="cartIcon">
+                <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <img src="shopping-cart.png" alt="Cart Icon" width="41">
+                    <span>0</span>
+                  </a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="shoppingpage.html">OUR PRODUCTS</a></li>
+                <li><a href="shoppingpage.html">CUSTOM PRODUCTS</a></li>
+                <li><a href="#">SALES</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="magclip.png" alt="Mag Clip">
+            <h3>NEW Magg Clip</h3>
+            <p>A magnetic tie clip. Perfect as a gift, a hidden magnetic tie clip that keeps your tie centered. Can be customized.</p>
+        </div>
+        <div class="product">
+            <img src="cleankeyslyde.png" alt="Clean Key Slyde">
+            <h3>NEW Clean Key Slyde</h3>
+            <p>Retractable door opening tool. Keep no-contact with unwanted public surfaces Open doors, push buttons, and more all touch free.</p>
+        </div>
+        <div class="product">
+            <img src="pen.png" alt="Pen">
+            <h3>Engraved Pen</h3>
+            <p>Pen is engraved with text of your choice. Metal pen with diamond secured on top. Fun and unique pen.</p>
+        </div>
+        <div class="product">
+            <img src="bracelet.png" alt="Bracelet">
+            <h3>Golden Engraved Chain Bracelet</h3>
+            <p>Gold bracelet with a solid plate for text and chain band that is engraved with the text of your choice.</p>
+        </div>
+        <div class="product">
+            <img src="photo.png" alt="Photo">
+            <h3>Insta Wooden Picture Frame</h3>
+            <p>An Instagram style picture frame engraved in wood. Bring your posts to life with these frames.</p>
+        </div>
+        <div class="product">
+            <img src="nintendophoto.png" alt="Switch Photo">
+            <h3>Nintendo Switch Wooden Picture Frame</h3>
+            <p>A Nintendo Switch style picture frame engraved in wood. Perfect frame for Nintendo lovers.</p>
+        </div>
+        <div class="product">
+            <img src="goldbracelet.jpg" alt="Solid Gold Bracelet">
+            <h3>Golden Engraved Solid Bracelet</h3>
+            <p>Golden bracelet engraved with the text of your choice.</p>
+        </div>
+        <div class="product">
+            <img src="InfinityWall.webp" alt="Infinity Wall">
+            <h3>Infinity Wall Decor</h3>
+            <p>Infinity wall decor customized to fit two names. Perfect for a gift for loved ones.</p>
+        </div>
+        <div class="product">
+            <img src="loveArrow.webp" alt="Love Arrow Wall">
+            <h3>Love Arrow Wall Decor</h3>
+            <p>Wall decor perfect for any room. Unique home decor.</p>
+        </div>
+    </div>
+</body>
+</html>
